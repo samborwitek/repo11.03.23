@@ -12,3 +12,14 @@ print("Pole trojkata wynosi " + str(pole) + ", a obwod wynosi " + str(obwod))
 
 
 
+
+#kolo trapez kwadrat romb
+
+a = 15
+h = 7
+
+polerombu = a * h
+obwodrombu = 4 * a
+
+print("Pole rombu wynosi " + str(polerombu) + ", a obwod wynosi " + str(obwodrombu))
+
