@@ -1,5 +1,5 @@
+import math
 # trojkat
-
 a = 10
 b = 12
 c = 8
@@ -13,9 +13,8 @@ print("Pole trojkata wynosi " + str(pole) + ", a obwod wynosi " + str(obwod))
 
 
 
-#kolo trapez  
-# romb
 
+# romb
 a = 15
 h = 7
 
@@ -26,7 +25,6 @@ print("Pole rombu wynosi " + str(polerombu) + ", a obwod wynosi " + str(obwodrom
 
 
 #prostokat 
-
 a = 10
 b = 5
 
@@ -37,7 +35,6 @@ print("Pole prostokata wynosi " + str(poleprostokata) + ", a obwod wynosi " + st
 
 
 #trapez
-
 a = 10
 b = 5
 c = 3
@@ -47,3 +44,11 @@ obwodtrapezu = a+b+c+d
 poletrapezu = (a+b)*h/2
 
 print("Pole trapezu wynosi " + str(poletrapezu) + ", a obwod wynosi " + str(obwodtrapezu))
+
+#kolo
+pi=math.pi
+r= 10
+polekola = pi * (r ** 2)
+obwodkola = 2 * pi * r
+
+print("Pole kola wynosi " + str(polekola) + ", a obwod wynosi " + str(obwodkola))
